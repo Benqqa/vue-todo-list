@@ -60,6 +60,43 @@ body{
   align-items: center;
   padding: 10px 20px;  
 }
+.note{
+  display: flex;
+  margin: 10px;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.note__title{
+  color: #878787;
+  word-break: break-all;
+  max-width: 40%;
+}
+.note__body{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.note__text{
+  color: #878787;
+  word-break: break-all;
+}
+.note__bottom{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.note-page__btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 20px 0 0;
+}
+.note-page__btn{
+    cursor: pointer;
+}
 .btn {
   padding: 8px 16px;
   background: red;
